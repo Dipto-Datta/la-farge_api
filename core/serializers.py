@@ -15,6 +15,7 @@ class UserLoginSerializer(serializers.ModelSerializer):
         fields = [
             "email",
             "name",
+            "position",
         ]
 
 
